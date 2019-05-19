@@ -1,0 +1,99 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>דף נחיתה לפקולטה של טכנולוגיות למידה</title>
+    <meta name="description" content="דף בעל מידע ואפשרות להרשם לפקולטה של תוכניות למידה" />
+    <meta name="keywords" content="תואר, המכללה הטכנולוגית חולון, טכנולוגיות למידה" />
+    <meta name="author" content="MaximLantsman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/button.css" rel="stylesheet" />
+    <link href="styles/button.min.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+   
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <a id="myLogo" href="https://www.hit.ac.il/">
+                <img width="100" height="60" src="images/Hit_logo.png" />
+                <img width="200" height="60" src="images/Hit_text.png" />
+            </a>
+        </header>
+        <article>
+            <h1 id="headLine">הפקולטה לטכנולוגיות למידה</h1>
+            <p id="txtBox">
+                בעולם בו הטכנולוגיה רק צומחת ומתקדמת, כך גם הדרישות בשוק מתפתחות ומשתנות והתואר הזה בבא להביא מענה לתחום החדש הזה. <br />
+                התואר דורש ראיה רחבה בגלל האופי הרב תחומי שלו ומכשיר אנשים להיות מפתחי הדרכה, להעביר ידע ומיומניות בבעזרת טכנולוגיות שונות ובצורה הטובה ביותר. <br />
+                אחד הדברים הטובים ביותר שתואר זה מספק הוא ניסיון מעשי, עשיית עבודות ופרוייקטים ציוותיים בישביל להכין את הסטודנטים לעולם הריאלי וקיימים פחות מבחנים.
+            </p>
+        </article>
+
+        <figure>
+            <div id="mediaExmp">
+                <h2>אמצעים הנלמדים בתואר</h2>
+
+                <ul>
+                    <li>אנימציה</li>
+                    <li>משחקי מחשב ורשת</li>
+                    <li>מערכות מולטימדיה</li>
+                    <li>לומדות אינטרקטיביות</li>
+                </ul>
+            </div>
+            <div id="courseExmp">
+                <h2>דוגמאות לקורסים בפקולטה</h2>
+                <ul>
+                    <li>פיתוח והדרכה- פסיכולוגיה, פרזנטציות אפקטיביות</li>
+                    <li>עיצוב- גרפיקה ממוחשבת, עיצוב חווית משתמש</li>
+                    <li>תכנות- פיתוח ועיצוב אתרים, תכנות אינטרקטיבי</li>
+
+                </ul>
+            </div>
+            <a class="ui facebook button toAction" href="https://www.facebook.com/telemHIT/">
+                לפייסבוק הפקולטה
+            </a>
+            <a class="ui button toAction clrBt" href="http://telemview.telem-hit.net/" target="_blank">לפרוייקטים שנעשו על ידי סטודנטים מהתואר!</a>
+        </figure>
+
+        <aside>
+            <div id="signPlace">
+                <h2>אז למה אתם מחכים? הרשמו לייעוץ חינם עכשיו!</h2>
+                <form>
+                    <input type="hidden" id="myEmail" name="name" value="lantsmaxim@gmail.com">
+
+
+                    <label for="FullName">
+                        שם מלא:
+                        <input type="text" id="FirstName" placeholder="הכנס שם מלא" />
+                    </label>
+
+                    <label for="phoneNum">
+                        מספר טלפון:
+                        <input type="text" id="phoneNum" placeholder="הכנס את מספר הטלפון" />
+                    </label>
+
+                    <label for="myMail">
+                        מייל:
+                        <input type="text" id="myMail" placeholder="הכנס את כתובת המייל שלך" />
+                    </label>
+
+                    <input class="ui button" type="submit" id="Send" value="שלח">
+
+                    <div id="feedback"></div>
+
+                </form>
+            </div>
+        </aside>
+
+    </div>
+</body>
+</html>

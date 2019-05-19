@@ -1,0 +1,88 @@
+﻿body {
+    direction: rtl;
+    background-image: url("../images/bg_image.jpg");
+    background-size: 1920px 1080px;
+   
+}
+
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    height: 600px;
+    border: solid 0.5px black;
+    background-color: white;
+    
+}
+
+#myLogo {
+    margin-right:10px;
+}
+
+#headLine, #txtBox, #myTable, #mediaExmp {
+    margin-right: 60px;
+}
+
+#headLine {
+    margin-top:30px;
+    font-size:36pt;
+}
+
+#txtBox {
+    margin-top: 30px;
+    width: 550px;
+    line-height: 1.5;
+    
+}
+
+
+
+
+#signPlace {
+    position: relative;
+    width: 312px;
+    padding: 20px;
+    border-radius: 10%;
+    right: 606px;
+    bottom: 542px;
+    background-color: #018385;
+    color: white;
+}
+
+.ui.toAction {
+    margin-right: 170px;
+ bottom:145px;
+    position: relative;
+}
+
+    .ui.toAction.clrBt {
+        background-color: #018385;
+        color:white;
+    }
+
+#mediaExmp {
+    line-height: 2;
+    margin-top: 35px;
+}
+
+#courseExmp {
+    line-height: 2;
+    margin-top: 35px;
+    position: relative;
+    right: 260px;
+    bottom: 195px;
+}
+
+    label {
+        display: block;
+        margin-top: 10px;
+    }
+
+input[type ='text'], input[type ='password'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
